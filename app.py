@@ -91,7 +91,7 @@ with st.sidebar:
     st.divider()
     view = st.radio("View", ["Customer 360 & Offers","Architecture Walkthrough","Simulation Lab","AI Explainer Chat"])
     st.divider()
-    st.caption("Demo | Citi × TCS AI Immersion · 2025")
+    st.caption("Demo | Citi Bank and TCS AI Immersion · 2026")
 
 cust = CUSTOMERS[selected_cust]
 cust_name = selected_cust.split("·")[1].strip()
